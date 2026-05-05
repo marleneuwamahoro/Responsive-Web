@@ -1,0 +1,913 @@
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoStartup</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    * { font-family: "Sora", sans-serif; }
+
+    body {
+      background: #0b152b;
+    }
+
+    .no-click {
+      pointer-events: none;
+    }
+
+    .hero-bg {
+      background:
+        radial-gradient(circle at 55% 5%, rgba(74,108,247,0.25), transparent 28%),
+        radial-gradient(ellipse at top, #202b4a 0%, #111c33 40%, #0b152b 100%);
+    }
+  </style>
+</head>
+
+<body class="text-white overflow-x-hidden">
+<!-- HEADER -->
+<header class="absolute top-0 left-0 z-50 w-full">
+  <div class="mx-auto flex max-w-[1500px] items-center justify-between px-10 py-8">
+
+    <!-- Logo -->
+    <div>
+      <img
+        src="https://go-tailwind.preview.uideck.com/src/images/logo/logo-dark.svg"
+        alt="GoStartup"
+        class="h-[58px] w-auto"
+      />
+    </div>
+    <nav class="hidden lg:flex items-center gap-12 text-[20px] font-semibold">
+      <a href="#home">Home</a>
+      <a href="#features" class="text-white/45">Features</a>
+
+      <div class="relative group">
+  <span class="flex items-center gap-3 text-white/45 cursor-default">
+    Pages
+
+    <svg
+      class="w-4 h-4 mt-1"
+      viewBox="0 0 14 8"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 1L7 7L13 1"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </span>
+
+  <div class="absolute left-0 top-full mt-6 hidden w-[360px] rounded-sm bg-[#2B3445] px-10 py-8 group-hover:block">
+    <div class="space-y-6 text-[18px] font-semibold text-white/45">
+      <p>Blog Grids</p>
+      <p>Blog Details</p>
+      <p>404 Error</p>
+      <p>Sign In</p>
+      <p>Sign Up</p>
+    </div>
+  </div>
+</div>
+
+      <a href="#support" class="text-white/45">Support</a>
+    </nav>
+
+    <!-- Buttons -->
+    <div class="hidden lg:flex items-center gap-5">
+      <button class="no-click rounded-md bg-gradient-to-r from-[#4A6CF7] to-[#6A7CFF] px-9 py-4 text-[20px] font-semibold text-white shadow-lg">
+  Sign In
+</button>
+      <button class="no-click rounded-sm bg-[#1B2947] px-9 py-4 text-[20px] font-semibold text-white">
+        Sign Up
+      </button>
+
+      <span class="ml-2 text-[34px] leading-none text-white">☼</span>
+    </div>
+
+  </div>
+</header>
+<section class="hero-bg min-h-screen pt-[150px]">
+  <div class="max-w-[1400px] mx-auto grid lg:grid-cols-2 gap-10 px-8 items-center">
+
+    <!-- LEFT -->
+    <div>
+
+      <span class="inline-flex items-center gap-3 bg-white/10 px-6 py-3 rounded-full text-[16px] mb-8">
+        <span class="w-2 h-2 bg-primary rounded-full"></span>
+        Tailwind Template for Startups
+      </span>
+
+      <h1 class="text-[64px] font-bold leading-tight mb-6">
+        Digital Solutions for <br />
+        Your <span class="underline">Startup</span>
+      </h1>
+
+      <p class="text-[22px] text-white/50 leading-8 mb-10 max-w-[600px]">
+        Handcrafted Tailwind CSS template for your next startup or SaaS website.
+        Comes with modern design and everything you need.
+      </p>
+
+      <div class="flex items-center gap-6">
+        <button class="bg-primary px-9 py-4 text-[18px] rounded">
+          Get Started
+        </button>
+
+        <span class="flex items-center gap-2 text-[18px]">
+          ▶ How it Work
+        </span>
+      </div>
+
+    </div>
+  <div class="relative h-[620px] w-full overflow-visible">
+
+  <img
+    src="Images/10012.jpg"
+    class="absolute right-[2%] top-0 w-[68%] h-[58%] object-cover rounded-md"
+  />
+
+  <img
+    src="Images/10013.jpg"
+    class="absolute left-[-5%] top-[32%] z-20 w-[72%] h-[62%] object-cover rounded-md shadow-2xl"
+  />
+</div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="relative overflow-hidden bg-[#101722] py-28">
+  <div class="mx-auto max-w-[1500px] px-8 text-center">
+
+    <!-- faded background title -->
+    <h3 class="pointer-events-none absolute left-1/2 top-10 -translate-x-1/2 text-[130px] font-extrabold uppercase tracking-[0.12em] text-white/[0.025]">
+      Features
+    </h3>
+
+    <div class="relative z-10">
+      <h2 class="mx-auto mb-8 max-w-[900px] text-[62px] font-extrabold leading-tight text-white">
+        Our Unique & Awesome <br />
+        Core Features
+      </h2>
+
+      <p class="mx-auto mb-28 max-w-[850px] text-[21px] leading-9 text-white/45">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros.
+        Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+      </p>
+
+      <div class="grid gap-x-20 gap-y-28 md:grid-cols-3">
+
+        <!-- Feature 1 -->
+        <div class="text-center">
+          <div class="mx-auto mb-14 flex h-[125px] w-[125px] items-center justify-center rounded-full bg-white/5 text-[46px] text-white">
+            ▮▮▮
+          </div>
+          <h3 class="mb-8 text-[30px] font-extrabold text-white">
+            Crafted for Startups
+          </h3>
+          <p class="mx-auto max-w-[420px] text-[21px] leading-9 text-white/45">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="text-center">
+          <div class="mx-auto mb-14 flex h-[125px] w-[125px] items-center justify-center rounded-full bg-white/5 text-[46px] text-white">
+            ◆
+          </div>
+          <h3 class="mb-8 text-[30px] font-extrabold text-white">
+            High-quality Design
+          </h3>
+          <p class="mx-auto max-w-[420px] text-[21px] leading-9 text-white/45">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="text-center">
+          <div class="mx-auto mb-14 flex h-[125px] w-[125px] items-center justify-center rounded-full bg-white/5 text-[46px] text-white">
+            ▣
+          </div>
+          <h3 class="mb-8 text-[30px] font-extrabold text-white">
+            All Essential Sections
+          </h3>
+          <p class="mx-auto max-w-[420px] text-[21px] leading-9 text-white/45">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.
+          </p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="text-center">
+          <div class="mx-auto mb-14 flex h-[125px] w-[125px] items-center justify-center rounded-full bg-white/5 text-[46px] text-white">
+            ◉
+          </div>
+          <h3 class="mb-8 text-[30px] font-extrabold text-white">
+            Speed Optimized
+          </h3>
+          <p class="mx-auto max-w-[420px] text-[21px] leading-9 text-white/45">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.
+          </p>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="text-center">
+          <div class="mx-auto mb-14 flex h-[125px] w-[125px] items-center justify-center rounded-full bg-white/5 text-[46px] text-white">
+            ▦
+          </div>
+          <h3 class="mb-8 text-[30px] font-extrabold text-white">
+            Fully Customizable
+          </h3>
+          <p class="mx-auto max-w-[420px] text-[21px] leading-9 text-white/45">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.
+          </p>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="text-center">
+          <div class="mx-auto mb-14 flex h-[125px] w-[125px] items-center justify-center rounded-full bg-white/5 text-[46px] text-white">
+            ↻
+          </div>
+          <h3 class="mb-8 text-[30px] font-extrabold text-white">
+            Regular Updates
+          </h3>
+          <p class="mx-auto max-w-[420px] text-[21px] leading-9 text-white/45">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ABOUT US -->
+<section id="about" class="relative overflow-hidden bg-[#101722] py-28">
+  <div class="mx-auto max-w-[1500px] px-8 text-center">
+
+    <h3 class="pointer-events-none absolute left-1/2 top-8 -translate-x-1/2 text-[130px] font-extrabold uppercase tracking-[0.12em] text-white/[0.025]">
+      About Us
+    </h3>
+
+    <div class="relative z-10">
+      <h2 class="mx-auto mb-8 max-w-[900px] text-[62px] font-extrabold leading-tight text-white">
+        Know Details About <br />
+        Our Company
+      </h2>
+
+      <p class="mx-auto mb-24 max-w-[850px] text-[21px] leading-9 text-white/45">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros.
+        Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+      </p>
+
+      <div class="mb-20 grid grid-cols-3 border-b border-white/15 text-[22px] font-bold text-white">
+        <div class="border-b-2 border-primary pb-8">About Us</div>
+        <div class="pb-8">Our Mission</div>
+        <div class="pb-8">Our Vision</div>
+      </div>
+
+      <div class="grid items-center gap-16 text-left lg:grid-cols-2">
+        <div class="relative h-[560px]">
+          <img
+            src="Images/10001 (1).jpg"
+            alt="about"
+            class="absolute left-0 top-0 h-[75%] w-[70%] rounded-sm object-cover"
+          />
+
+          <img
+            src="Images/10015.jpg"
+            alt="about"
+            class="absolute right-0 top-[10%] z-20 h-[78%] w-[72%] rounded-sm object-cover grayscale"
+          />
+
+          <div class="absolute right-[6%] top-[25%] z-30 text-primary text-[48px] leading-none">
+            ≋<br />≋<br />≋
+          </div>
+        </div>
+
+        <div>
+          <h2 class="mb-10 text-[54px] font-extrabold leading-tight text-white">
+            We are Creative <br />
+            Digital Agency Based <br />
+            in USA
+          </h2>
+
+          <p class="mb-10 text-[22px] leading-10 text-white/45">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum
+            sapien ac leo cursus dignissim. In ac lectus vel orci accumsan ultricies
+            at in libero accumsan.
+          </p>
+
+          <p class="mb-10 text-[22px] leading-10 text-white/45">
+            Phasellus ex massa, facilisis ac vestibulum eget, ultrices quis nulla.
+            Integer vitae magna lacus. Sed venenatis auctor dolor.
+          </p>
+
+          <p class="text-[22px] leading-10 text-white/45">
+            Phasellus ex massa, facilisis ac vestibulum eget, ultrices quis nulla.
+            Integer vitae magna lacus. Sed venenatis auctor.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- TEAM -->
+<section class="relative overflow-hidden bg-[#101722] py-28">
+  <div class="mx-auto max-w-[1500px] px-8 text-center">
+
+    <h3 class="pointer-events-none absolute left-1/2 top-8 -translate-x-1/2 text-[130px] font-extrabold uppercase tracking-[0.12em] text-white/[0.025]">
+      Our Team
+    </h3>
+
+    <div class="relative z-10">
+      <h2 class="mx-auto mb-8 max-w-[950px] text-[62px] font-extrabold leading-tight text-white">
+        Meet With Our Creative <br />
+        Dedicated Team
+      </h2>
+
+      <p class="mx-auto mb-24 max-w-[850px] text-[21px] leading-9 text-white/45">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros.
+        Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+      </p>
+
+      <div class="grid gap-12 md:grid-cols-3">
+
+        <div>
+          <img
+            src="Images/10016.jpg"
+            alt="team"
+            class="mb-10 h-[300px] w-full rounded-sm object-cover"
+          />
+          <h3 class="mb-4 text-[32px] font-extrabold text-white">Olivia Andrium</h3>
+          <p class="text-[22px] text-white/45">Project Manager</p>
+        </div>
+
+        <div>
+          <img
+            src="Images/10017.jpg"
+            alt="team"
+            class="mb-10 h-[300px] w-full rounded-sm object-cover"
+          />
+          <h3 class="mb-4 text-[32px] font-extrabold text-white">Jemse Kemorun</h3>
+          <p class="text-[22px] text-white/45">Project Designer</p>
+        </div>
+
+        <div>
+          <img
+            src="Images/10001.jpg"
+            alt="team"
+            class="mb-10 h-[300px] w-full rounded-sm object-cover"
+          />
+          <h3 class="mb-4 text-[32px] font-extrabold text-white">Avi Pestarica</h3>
+          <p class="text-[22px] text-white/45">Web Designer</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- PORTFOLIO -->
+<section class="relative overflow-hidden bg-[#101722] py-28">
+  <div class="mx-auto max-w-[1500px] px-8 text-center">
+
+    <h3 class="pointer-events-none absolute left-1/2 top-8 -translate-x-1/2 text-[130px] font-extrabold uppercase tracking-[0.12em] text-white/[0.025]">
+      Portfolio
+    </h3>
+
+    <div class="relative z-10">
+      <h2 class="mx-auto mb-8 max-w-[900px] text-[62px] font-extrabold leading-tight text-white">
+        Explore Our Latest <br />
+        Case Studies
+      </h2>
+
+      <p class="mx-auto mb-20 max-w-[850px] text-[21px] leading-9 text-white/45">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros.
+        Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+      </p>
+
+      <div class="mb-20 flex flex-wrap justify-center gap-16 text-[22px] font-bold text-white">
+        <span class="underline underline-offset-4">All</span>
+        <span>Branding Strategy</span>
+        <span>Digital Experiences</span>
+        <span>eCommerce</span>
+      </div>
+      <div class="grid gap-10 lg:grid-cols-[2fr_1fr] text-left">
+        <div class="space-y-10">
+          <div class="relative overflow-hidden rounded-sm">
+            <img
+              src="Images/10019.jpg"
+              alt="portfolio"
+              class="h-[310px] w-full object-cover"
+            />
+            <div class="absolute left-0 top-0 h-full w-full bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end p-6 text-white text-[22px] font-bold">
+              View Case Study →
+          </div>
+          </div>
+          <!-- bottom two images -->
+          <div class="grid gap-10 md:grid-cols-2">
+            <img
+              src="Images/10021.jpg"
+              alt="portfolio"
+              class="h-[360px] w-full rounded-sm object-cover"
+            />
+
+            <img
+              src="Images/10022.jpg"
+              alt="portfolio"
+              class="h-[360px] w-full rounded-sm object-cover"
+            />
+          </div>
+        </div>
+
+        <!-- RIGHT TALL IMAGE -->
+        <img
+          src="Images/10020.jpg"
+          alt="portfolio"
+          class="h-[710px] w-full rounded-sm object-cover"
+        />
+
+      </div>
+
+      <button class="no-click mt-20 rounded-sm bg-primary px-14 py-5 text-[24px] font-bold text-white">
+        See More Projects →
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="relative overflow-hidden bg-[#101722] py-28">
+  <div class="mx-auto max-w-[1500px] px-8">
+
+    <div class="text-center">
+      <h3 class="pointer-events-none absolute left-1/2 top-10 -translate-x-1/2 text-[130px] font-extrabold tracking-[0.08em] text-white/[0.025]">
+        Testimonial
+      </h3>
+
+      <h2 class="relative z-10 mx-auto mb-8 max-w-[950px] text-[62px] font-extrabold leading-tight text-white">
+        What Our Clients <br />
+        Say About Us
+      </h2>
+
+      <p class="relative z-10 mx-auto mb-24 max-w-[850px] text-center text-[21px] leading-9 text-white/45">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros.
+        Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+      </p>
+    </div>
+
+    <div class="grid items-center gap-20 lg:grid-cols-2">
+      <div>
+        <p class="mb-16 text-[34px] leading-[1.45] text-white/45">
+          “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum
+          sapien ac leo cursus dignissim. In ac lectus vel orci accumsan ultricies at in
+          libero accumsan Lorem Ipsum has been the industry’s standard
+        </p>
+
+        <h3 class="mb-3 text-[28px] font-bold text-white">Deniyal Shifer</h3>
+        <p class="mb-14 text-[22px] text-white/45">Founder @democompany.</p>
+
+        <div class="flex gap-8">
+          <div class="flex h-16 w-16 items-center justify-center rounded-full bg-white/10 text-[34px] text-white">←</div>
+          <div class="flex h-16 w-16 items-center justify-center rounded-full bg-white/10 text-[34px] text-white">→</div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="absolute -right-8 -top-8 h-full w-full border border-white/15 bg-white/5"></div>
+
+        <img
+          src="Images/10023.jpg"
+          alt="testimonial"
+          class="relative z-10 h-[620px] w-full object-cover"
+        />
+
+        <div class="absolute bottom-24 right-[-40px] z-20 text-primary text-[48px] leading-none">
+          ≋<br />≋<br />≋
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- BRANDS -->
+<section class="bg-[#101722] py-28">
+  <div class="mx-auto max-w-[1500px] px-8 text-center">
+    <h2 class="mb-8 text-[54px] font-extrabold text-white">
+      Trusted by Global Brands
+    </h2>
+
+    <p class="mx-auto mb-24 max-w-[850px] text-[21px] leading-9 text-white/45">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros.
+      Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+    </p>
+
+    <div class="flex flex-wrap items-center justify-center gap-14 text-[34px] font-bold text-white">
+      <span>▱ UIdeck</span>
+      <span>▥ TailAdmin</span>
+      <span>◉ graygrids</span>
+      <span>▰ Lineicons</span>
+      <span>▣ PlainAdmin</span>
+    </div>
+  </div>
+</section>
+<!-- PRICING -->
+<section id="pricing" class="relative overflow-hidden bg-[#101722] py-28">
+  <div class="mx-auto max-w-[1500px] px-8 text-center">
+
+    <!-- faded background title -->
+    <h3 class="pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 text-[120px] font-extrabold uppercase tracking-[0.12em] text-white/[0.025]">
+      Pricing Plans
+    </h3>
+
+    <div class="relative z-10">
+      <h2 class="mx-auto mb-8 max-w-[900px] text-[62px] font-extrabold leading-tight text-white">
+        Affordable Pricing With <br />
+        Simple Plans
+      </h2>
+
+      <p class="mx-auto mb-24 max-w-[850px] text-[21px] leading-9 text-white/45">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros.
+        Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+      </p>
+
+      <div class="grid grid-cols-3 overflow-hidden rounded-sm bg-[#0f1826]/70 text-center">
+
+        <!-- FREE -->
+        <div class="border-r border-white/10">
+          <div class="px-10 py-14">
+            <h3 class="mb-5 text-[36px] font-bold text-white">Free</h3>
+            <p class="text-[21px] text-white/45">The most basic plan</p>
+          </div>
+
+          <div class="border-t border-white/10 px-10 py-12">
+            <div class="mb-10 flex items-end justify-center gap-1 text-white">
+              <span class="mb-4 text-[22px] font-bold">$</span>
+              <span class="text-[76px] font-extrabold leading-none">0</span>
+              <span class="mb-4 text-[22px] font-bold">/month</span>
+            </div>
+
+            <p class="mx-auto max-w-[320px] text-[20px] leading-8 text-white/45">
+              Lorem ipsum dolor sit ametion consectetur adipisc elit.
+            </p>
+          </div>
+
+          <div class="border-t border-white/10 px-16 py-14 text-left">
+            <ul class="space-y-7 text-[21px] leading-8 text-white/45">
+              <li class="flex gap-5"><span class="text-emerald-400 text-3xl">✓</span>300 GB Storage</li>
+              <li class="flex gap-5"><span class="text-emerald-400 text-3xl">✓</span>Unlimited Photos and Videos</li>
+              <li class="flex gap-5"><span class="text-emerald-400 text-3xl">✓</span>Exclusive Support</li>
+              <li class="flex gap-5"><span class="text-white/35 text-3xl">✓</span>Custom Branding Strategy</li>
+              <li class="flex gap-5"><span class="text-white/35 text-3xl">✓</span>Free SEO Tools</li>
+            </ul>
+
+            <button class="no-click mt-20 w-full rounded-sm bg-white/45 py-5 text-[22px] font-bold text-white">
+              Join This Plan →
+            </button>
+          </div>
+        </div>
+
+        <!-- BASIC -->
+        <div class="border-r border-white/10">
+          <div class="px-10 py-14">
+            <h3 class="mb-5 text-[36px] font-bold text-white">Basic</h3>
+            <p class="text-[21px] text-white/45">The most popular plan</p>
+          </div>
+
+          <div class="border-t border-white/10 px-10 py-12">
+            <div class="mb-10 flex items-end justify-center gap-1 text-white">
+              <span class="mb-4 text-[22px] font-bold">$</span>
+              <span class="text-[76px] font-extrabold leading-none">29</span>
+              <span class="mb-4 text-[22px] font-bold">/month</span>
+            </div>
+
+            <p class="mx-auto max-w-[320px] text-[20px] leading-8 text-white/45">
+              Lorem ipsum dolor sit ametion consectetur adipisc elit.
+            </p>
+          </div>
+
+          <div class="border-t border-white/10 px-16 py-14 text-left">
+            <ul class="space-y-7 text-[21px] leading-8 text-white/45">
+              <li class="flex gap-5"><span class="text-emerald-400 text-3xl">✓</span>300 GB Storage</li>
+              <li class="flex gap-5"><span class="text-emerald-400 text-3xl">✓</span>Unlimited Photos and Videos</li>
+              <li class="flex gap-5"><span class="text-emerald-400 text-3xl">✓</span>Exclusive Support</li>
+              <li class="flex gap-5"><span class="text-emerald-400 text-3xl">✓</span>Custom Branding Strategy</li>
+              <li class="flex gap-5"><span class="text-white/35 text-3xl">✓</span>Free SEO Tools</li>
+            </ul>
+          <button class="no-click mt-20 mx-auto block w-[300px] rounded-sm bg-[#4A6CF7] py-5 text-[22px] font-bold text-white">
+  Join This Plan →
+</button>
+          </div>
+        </div>
+
+        <!-- PREMIUM -->
+        <div>
+          <div class="px-10 py-14">
+            <h3 class="mb-5 text-[36px] font-bold text-white">Premium</h3>
+            <p class="text-[21px] text-white/45">The most premium plan</p>
+          </div>
+
+          <div class="border-t border-white/10 px-10 py-12">
+            <div class="mb-10 flex items-end justify-center gap-1 text-white">
+              <span class="mb-4 text-[22px] font-bold">$</span>
+              <span class="text-[76px] font-extrabold leading-none">99</span>
+              <span class="mb-4 text-[22px] font-bold">/month</span>
+            </div>
+
+            <p class="mx-auto max-w-[320px] text-[20px] leading-8 text-white/45">
+              Lorem ipsum dolor sit ametion consectetur adipisc elit.
+            </p>
+          </div>
+
+          <div class="border-t border-white/10 px-16 py-14 text-left">
+            <ul class="space-y-7 text-[21px] leading-8 text-white/45">
+              <li class="flex gap-5"><span class="text-emerald-400 text-3xl">✓</span>300 GB Storage</li>
+              <li class="flex gap-5"><span class="text-emerald-400 text-3xl">✓</span>Unlimited Photos and Videos</li>
+              <li class="flex gap-5"><span class="text-emerald-400 text-3xl">✓</span>Exclusive Support</li>
+              <li class="flex gap-5"><span class="text-emerald-400 text-3xl">✓</span>Custom Branding Strategy</li>
+              <li class="flex gap-5"><span class="text-emerald-400 text-3xl">✓</span>Free SEO Tools</li>
+            </ul>
+
+            <button class="no-click mt-20 w-full rounded-sm bg-white/45 py-5 text-[22px] font-bold text-white">
+              Join This Plan →
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SUPPORT / CONTACT -->
+<section id="support" class="relative overflow-hidden bg-[#101722] pt-28 pb-20">
+  <div class="mx-auto max-w-[1500px] px-8">
+
+    <!-- Top Support Title -->
+    <div class="relative mb-24">
+      <h3 class="pointer-events-none absolute -top-20 left-0 text-[120px] font-extrabold uppercase tracking-widest text-white/[0.025]">
+        Support
+      </h3>
+
+      <div class="relative z-10 grid items-center gap-12 lg:grid-cols-[1fr_auto_1fr]">
+        <div>
+          <h2 class="mb-8 text-[58px] font-extrabold leading-tight text-white">
+            Need Any Help? <br />
+            Say hello
+          </h2>
+
+          <p class="max-w-[600px] text-[22px] leading-9 text-white/45">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            Donec vitae tortor aliquam ante.
+          </p>
+        </div>
+
+        <div class="hidden h-[3px] w-[140px] bg-white lg:block"></div>
+
+        <div>
+          <h3 class="text-[36px] font-bold text-white">
+            info@gostartup.com
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="mb-16 h-px w-full bg-white/10"></div>
+
+    <!-- Contact Info Row -->
+    <div class="mb-28 grid gap-12 md:grid-cols-4">
+      <div>
+        <h3 class="mb-5 text-[26px] font-bold text-white">Email Address</h3>
+        <p class="text-[22px] text-white/45">support@startup.com</p>
+      </div>
+
+      <div>
+        <h3 class="mb-5 text-[26px] font-bold text-white">Phone Number</h3>
+        <p class="text-[22px] text-white/45">+009 8754 3433 223</p>
+      </div>
+
+      <div>
+        <h3 class="mb-5 text-[26px] font-bold text-white">Office Location</h3>
+        <p class="text-[22px] leading-8 text-white/45">
+          76/A, Green valle, <br />
+          Califonia USA.
+        </p>
+      </div>
+
+      <div class="flex items-start gap-8 text-[30px] font-bold text-white/45">
+        <span>f</span>
+        <span>𝕏</span>
+        <span>in</span>
+        <span>Be</span>
+      </div>
+    </div>
+
+    <!-- Contact Form Design -->
+    <div class="mx-auto max-w-[1100px]">
+
+      <div class="grid gap-14 md:grid-cols-2">
+        <div>
+          <label class="mb-8 block text-[24px] font-bold text-white">
+            Your Name
+          </label>
+          <div class="border-b border-white/15 pb-8 text-[22px] text-white/40">
+            Full Name
+          </div>
+        </div>
+
+        <div>
+          <label class="mb-8 block text-[24px] font-bold text-white">
+            Email Address
+          </label>
+          <div class="border-b border-white/15 pb-8 text-[22px] text-white/40">
+            Email Address
+          </div>
+        </div>
+
+        <div>
+          <label class="mb-8 block text-[24px] font-bold text-white">
+            Phone (Optional)
+          </label>
+          <div class="border-b border-white/15 pb-8 text-[22px] text-white/40">
+            Phone Number
+          </div>
+        </div>
+
+        <div>
+          <label class="mb-8 block text-[24px] font-bold text-white">
+            Subject
+          </label>
+          <div class="border-b border-white/15 pb-8 text-[22px] text-white/40">
+            Type Subject
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-16">
+        <label class="mb-8 block text-[24px] font-bold text-white">
+          Message
+        </label>
+
+        <div class="h-[180px] border-b border-white/15 text-[22px] text-white/40">
+          Type Message
+        </div>
+      </div>
+
+      <div class="mt-16 flex items-center gap-5 text-[22px] text-white/45">
+        <div class="h-7 w-7 rounded border border-white/20"></div>
+        <p>I have read the terms of the Service & I accept Privacy Policy</p>
+      </div>
+
+      <button class="no-click mt-16 w-full rounded-sm bg-primary py-5 text-[24px] font-bold text-white">
+        Send Message
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- COLLABORATION CTA -->
+<section class="bg-[#101722] py-20">
+  <div class="mx-auto max-w-[1500px] px-8">
+    <div class="grid items-center gap-12 rounded-sm bg-[#111c33] px-20 py-20 lg:grid-cols-[1fr_auto]">
+      <div>
+        <h2 class="mb-8 text-[52px] font-extrabold leading-tight text-white">
+          Looking for a collaboration? <br />
+          Get Started Today!
+        </h2>
+
+        <p class="text-[22px] text-white/45">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+
+      <button class="no-click rounded-sm bg-primary px-14 py-5 text-[24px] font-bold text-white">
+        Get Started Now
+      </button>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="bg-[#101722] pt-24 pb-10">
+  <div class="mx-auto max-w-[1500px] px-8">
+
+    <div class="grid gap-14 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr_1.3fr]">
+
+      <!-- Logo Column -->
+      <div>
+        <div class="mb-12 flex items-center gap-5">
+          <img
+            src="https://go-tailwind.preview.uideck.com/src/images/logo/logo-dark.svg"
+            alt="GoStartup"
+            class="h-[70px]"
+          />
+        </div>
+
+        <p class="mb-14 max-w-[330px] text-[22px] leading-9 text-white/45">
+          Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit.
+        </p>
+
+        <div class="flex gap-10 text-[32px] font-bold text-white/45">
+          <span>f</span>
+          <span>𝕏</span>
+          <span>in</span>
+          <span>Be</span>
+        </div>
+      </div>
+
+      <!-- Company -->
+      <div>
+        <h3 class="mb-12 text-[32px] font-bold text-white">Company</h3>
+        <ul class="space-y-8 text-[22px] text-white/45">
+          <li>Home</li>
+          <li>Product</li>
+          <li>
+            Careers
+            <span class="ml-3 rounded-sm bg-primary px-3 py-1 text-sm font-bold text-white">
+              Hiring
+            </span>
+          </li>
+          <li>Pricing</li>
+        </ul>
+      </div>
+
+      <!-- Support -->
+      <div>
+        <h3 class="mb-12 text-[32px] font-bold text-white">Support</h3>
+        <ul class="space-y-8 text-[22px] text-white/45">
+          <li>Company</li>
+          <li>Press media</li>
+          <li>Our Blog</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+
+      <!-- Get in touch -->
+      <div>
+        <h3 class="mb-12 text-[32px] font-bold text-white">Get in touch</h3>
+
+        <p class="mb-4 text-[22px] leading-8 text-white/45">
+          Toll Free Customer <br />
+          Care
+        </p>
+
+        <p class="mb-14 text-[22px] font-bold text-white">
+          +(1) 123 456 7890
+        </p>
+
+        <p class="mb-4 text-[22px] text-white/45">
+          Need live support?
+        </p>
+
+        <p class="text-[22px] font-bold text-white">
+          support@domain.com
+        </p>
+      </div>
+
+      <!-- Newsletter -->
+      <div>
+        <h3 class="mb-12 text-[32px] font-bold text-white">Newsletter</h3>
+
+        <p class="mb-10 text-[22px] leading-9 text-white/45">
+          Subscribe to receive future updates
+        </p>
+
+        <div class="flex overflow-hidden rounded-sm bg-white/10">
+          <div class="flex-1 px-8 py-5 text-[22px] text-white/35">
+            Email address
+          </div>
+
+          <div class="flex w-[70px] items-center justify-center border-l border-white/10 text-[32px] text-white/45">
+            ▷
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="mt-24 border-t border-white/10 pt-10">
+      <div class="flex flex-col justify-between gap-6 text-[20px] text-white/45 md:flex-row">
+        <div class="flex gap-10">
+          <span>English</span>
+          <span>Privacy Policy</span>
+          <span>Support</span>
+        </div>
+
+        <p>© 2025 Startup. All rights reserved</p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>
